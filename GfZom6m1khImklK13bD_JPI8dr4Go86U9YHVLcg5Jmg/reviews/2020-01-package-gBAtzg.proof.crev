@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-01-14T16:29:07.906106-08:00"
+from:
+  id-type: crev
+  id: GfZom6m1khImklK13bD_JPI8dr4Go86U9YHVLcg5Jmg
+  url: "https://github.com/clevinson/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cw-storage
+  version: 0.1.0
+  revision: 4c9fc0f8f46014fe8dcc3338383e263e8aa01eeb
+  digest: QgyVwkbwdYumE2-jYVy8pRys49NROHkWi12S07ofPjY
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: strong
+comment: |-
+  Clear code. Easy to read and understand its usage, with help from solid in-line documentation. Good test coverage, illustrating example use cases of all functionality.
+  This library takes care of a lot of storage related boilerplate for CosmWasm contracts, and using it will likely reduce potential for error in your own smart contract code.
+----- SIGN CREV PROOF -----
+Qf0l8OuXaDsVMT8apgPvE191N4Ccit_Bh8lp5oSJw14CjrIFRggeAB5h5B4BEXRQ7wKbq-ylgoA3Obkhau70Bg
+----- END CREV PROOF -----
+
